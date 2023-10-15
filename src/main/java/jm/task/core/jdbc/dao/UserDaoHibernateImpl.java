@@ -32,6 +32,7 @@ public class UserDaoHibernateImpl implements UserDao {
             e.printStackTrace();
         }
     }
+
     @Override
     public void dropUsersTable() {
         Transaction transaction = null;
